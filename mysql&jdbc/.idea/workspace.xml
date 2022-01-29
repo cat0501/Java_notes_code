@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3df31da6-7a2e-4e0d-8d3b-f6ffb275c171" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/environment/repo" />
+        <option name="mavenHome" value="$USER_HOME$/environment/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/environment/apache-maven-3.8.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24J5cDA0IX0CFJrI3BVpAums6eg" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16270699" />
+    <property name="project.structure.side.proportion" value="0.3312203" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jdbc-demo/src" />
+      <recent name="$PROJECT_DIR$/jdbc-demo/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DruidDemo.testDeleteById">
+    <configuration name="DruidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.druid.DruidDemo" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.druid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DruidDemo.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.druid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.druid" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.druid.DruidDemo" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DruidDemo.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.druid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.druid" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.druid.DruidDemo" />
+      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DruidDemo.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.druid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.druid" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.druid.DruidDemo" />
+      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DruidDemo.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.druid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.druid" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.druid.DruidDemo" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DruidDemo.testDeleteById" />
+        <item itemvalue="JUnit.DruidDemo.testUpdate" />
+        <item itemvalue="JUnit.DruidDemo.testAdd" />
+        <item itemvalue="JUnit.DruidDemo.testSelectAll" />
+        <item itemvalue="Application.DruidDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3df31da6-7a2e-4e0d-8d3b-f6ffb275c171" name="Default Changelist" comment="" />
+      <created>1643335925997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643335925997</updated>
+      <workItem from="1643335929833" duration="18024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="256" y="25" width="1280" height="1034" key="#Project_Structure" timestamp="1643358779304">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="256" y="25" width="1280" height="1034" key="#Project_Structure/0.25.1792.1034@0.25.1792.1034" timestamp="1643358779304" />
+    <state x="662" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1643427052888">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="662" y="154" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1034@0.25.1792.1034" timestamp="1643427052888" />
+    <state x="100" y="125" width="1592" height="834" key="DiffContextDialog" timestamp="1643427057767">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="100" y="125" width="1592" height="834" key="DiffContextDialog/0.25.1792.1034@0.25.1792.1034" timestamp="1643427057767" />
+    <state width="1737" height="303" key="GridCell.Tab.0.bottom" timestamp="1643436261276">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1737" height="303" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261276" />
+    <state width="1737" height="303" key="GridCell.Tab.0.center" timestamp="1643436261275">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1737" height="303" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261275" />
+    <state width="1737" height="303" key="GridCell.Tab.0.left" timestamp="1643436261274">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1737" height="303" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261274" />
+    <state width="1737" height="303" key="GridCell.Tab.0.right" timestamp="1643436261275">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1737" height="303" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261275" />
+    <state x="256" y="25" width="1280" height="1034" key="SettingsEditor" timestamp="1643358758737">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="256" y="25" width="1280" height="1034" key="SettingsEditor/0.25.1792.1034@0.25.1792.1034" timestamp="1643358758737" />
+    <state x="512" y="420" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1643358604649">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="512" y="420" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1792.1034@0.25.1792.1034" timestamp="1643358604649" />
+    <state x="100" y="74" key="new project wizard" timestamp="1643336064372">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="100" y="74" key="new project wizard/0.25.1792.1034@0.25.1792.1034" timestamp="1643336064372" />
+    <state x="477" y="246" key="run.anything.popup" timestamp="1643336004440">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="477" y="246" key="run.anything.popup/0.25.1792.1034@0.25.1792.1034" timestamp="1643336004440" />
+  </component>
+</project>
