@@ -1,7 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3df31da6-7a2e-4e0d-8d3b-f6ffb275c171" name="Default Changelist" comment="" />
+    <list default="true" id="3df31da6-7a2e-4e0d-8d3b-f6ffb275c171" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/controller/interceptor/ProjectExceptionAdivce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/controller/results/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/controller/results/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/system/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/java/com/itheima/system/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/resources/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/test/java/com/itheima/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/controller/interceptor/ProjectExceptionAdivce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/controller/results/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/controller/results/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/system/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/com/itheima/system/exception/SystemException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/test-classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/test-classes/com/itheima/service/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/test-classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/tomcat/logs/access_log.2020-01-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/tomcat/logs/access_log.2020-02-25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/springmvc_ssm/target/tomcat/logs/access_log.2020-02-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/java/com/itheima/controller/interceptor/ProjectExceptionAdivce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/java/com/itheima/controller/results/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/java/com/itheima/controller/results/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/java/com/itheima/system/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/java/com/itheima/system/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/com/itheima/controller/interceptor/ProjectExceptionAdivce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/com/itheima/controller/results/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/com/itheima/controller/results/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/com/itheima/system/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/com/itheima/system/exception/SystemException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_controller/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/src/main/resources/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/classes/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/classes/com/itheima/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/classes/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_dao/target/ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_pojo/target/ssm_pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/src/test/java/com/itheima/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/src/test/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/classes/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/classes/com/itheima/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/test-classes/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/test-classes/com/itheima/service/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_maven/ssm_service/target/test-classes/jdbc.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +120,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,6 +133,7 @@
     </option>
   </component>
   <component name="ProjectId" id="24J5cDA0IX0CFJrI3BVpAums6eg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -36,6 +146,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16270699" />
     <property name="project.structure.side.proportion" value="0.3312203" />
@@ -47,20 +158,7 @@
       <recent name="$PROJECT_DIR$/jdbc-demo/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DruidDemo.testDeleteById">
-    <configuration name="DruidDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.druid.DruidDemo" />
-      <module name="jdbc-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.druid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JDBCDemo3_Connection.testResultSet2">
     <configuration name="DruidDemo.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbc-demo" />
       <extension name="coverage">
@@ -125,13 +223,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCDemo3_Connection.testResultSet2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.jdbc.JDBCDemo3_Connection" />
+      <option name="METHOD_NAME" value="testResultSet2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JDBCDemo3_Connection.testResultSet2" />
         <item itemvalue="JUnit.DruidDemo.testDeleteById" />
         <item itemvalue="JUnit.DruidDemo.testUpdate" />
         <item itemvalue="JUnit.DruidDemo.testAdd" />
         <item itemvalue="JUnit.DruidDemo.testSelectAll" />
-        <item itemvalue="Application.DruidDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +260,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643335925997</updated>
       <workItem from="1643335929833" duration="18024000" />
+      <workItem from="1643437812711" duration="655000" />
+      <workItem from="1643607284295" duration="1853000" />
     </task>
     <servers />
   </component>
@@ -165,22 +281,22 @@
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state x="100" y="125" width="1592" height="834" key="DiffContextDialog/0.25.1792.1034@0.25.1792.1034" timestamp="1643427057767" />
-    <state width="1737" height="303" key="GridCell.Tab.0.bottom" timestamp="1643436261276">
+    <state width="1737" height="303" key="GridCell.Tab.0.bottom" timestamp="1644298715609">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1737" height="303" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261276" />
-    <state width="1737" height="303" key="GridCell.Tab.0.center" timestamp="1643436261275">
+    <state width="1737" height="303" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1644298715609" />
+    <state width="1737" height="303" key="GridCell.Tab.0.center" timestamp="1644298715608">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1737" height="303" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261275" />
-    <state width="1737" height="303" key="GridCell.Tab.0.left" timestamp="1643436261274">
+    <state width="1737" height="303" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1644298715608" />
+    <state width="1737" height="303" key="GridCell.Tab.0.left" timestamp="1644298715608">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1737" height="303" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261274" />
-    <state width="1737" height="303" key="GridCell.Tab.0.right" timestamp="1643436261275">
+    <state width="1737" height="303" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1644298715608" />
+    <state width="1737" height="303" key="GridCell.Tab.0.right" timestamp="1644298715608">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1737" height="303" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1643436261275" />
+    <state width="1737" height="303" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1644298715608" />
     <state x="256" y="25" width="1280" height="1034" key="SettingsEditor" timestamp="1643358758737">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>

@@ -1,0 +1,2 @@
+127.0.0.1 - - [31/Jan/2022:13:26:23 +0800] "GET /user?userName=zhangsan&password=1&realName=%E5%BC%A0%E4%B8%89&gender=2&birthday=2022-01-31 HTTP/1.1" 405 1045 http-bio-80-exec-1 608
+127.0.0.1 - - [31/Jan/2022:13:26:47 +0800] "POST /user?userName=zhangsan&password=1&realName=%E5%BC%A0%E4%B8%89&gender=2&birthday=2022-01-31 HTTP/1.1" 400 968 http-bio-80-exec-2 93
