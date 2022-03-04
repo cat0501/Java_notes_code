@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/itheima_mybatis_anno" />
     <file type="web" url="file://$PROJECT_DIR$/itheima_mybatis_mapper" />
+    <file type="web" url="file://$PROJECT_DIR$/itheima_mybatis_multi" />
     <file type="web" url="file://$PROJECT_DIR$/itheima_mybatis_quick" />
     <file type="web" url="file://$PROJECT_DIR$/itheima_spring_mvc" />
     <file type="web" url="file://$PROJECT_DIR$/itheima_ssm" />
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/itheima_mybatis_mapper/pom.xml" />
         <option value="$PROJECT_DIR$/itheima_mybatis_anno/pom.xml" />
         <option value="$PROJECT_DIR$/itheima_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/itheima_mybatis_multi/pom.xml" />
       </list>
     </option>
   </component>

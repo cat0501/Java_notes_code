@@ -30,6 +30,11 @@ public class MyBatisTest3 {
     @Test
     public void testSave(){
         List<User> userAndOrderAll = mapper.findUserAndOrderAll();
+
+        for (User user : userAndOrderAll) {
+            System.out.println(user);
+        }
+        System.out.println("----------以上为测试----------");
         for (User user : userAndOrderAll) {
             System.out.println(user.getUsername());
             List<Order> orderList = user.getOrderList();

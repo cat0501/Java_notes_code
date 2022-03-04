@@ -28,20 +28,20 @@
 
     <resultMap id="userRoleMap" type="user">
         <!--user的信息-->
-        <id column="userId" property="id"></id>
+        <id column="user_id" property="id"></id>
         <result column="username" property="username"></result>
         <result column="password" property="password"></result>
         <result column="birthday" property="birthday"></result>
         <!--user内部的roleList信息-->
         <collection property="roleList" ofType="role">
-            <id column="roleId" property="id"></id>
+            <id column="role_id" property="id"></id>
             <result column="roleName" property="roleName"></result>
             <result column="roleDesc" property="roleDesc"></result>
         </collection>
     </resultMap>
 
     <select id="findUserAndRoleAll" resultMap="userRoleMap">
-        SELECT * FROM USER u,sys_user_role ur,sys_role r WHERE u.id=ur.userId AND ur.roleId=r.id
+        SELECT * FROM user u,user_role ur,role r WHERE u.id=ur.user_id AND ur.role_id=r.id
     </select>
 
 

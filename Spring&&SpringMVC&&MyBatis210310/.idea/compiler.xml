@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="itheima_spring_mvc" />
+        <module name="itheima_mybatis_quick" />
         <module name="itheima_ssm" />
         <module name="itheima_mybatis_mapper" />
+        <module name="itheima_mybatis_multi" />
         <module name="itheima_mybatis_anno" />
-        <module name="itheima_mybatis_quick" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itheima_mybatis_anno" target="1.8" />
       <module name="itheima_mybatis_mapper" target="1.8" />
+      <module name="itheima_mybatis_multi" target="1.8" />
       <module name="itheima_mybatis_quick" target="1.8" />
       <module name="itheima_spring_mvc" target="1.8" />
       <module name="itheima_ssm" target="1.8" />

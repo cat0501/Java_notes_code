@@ -25,90 +25,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b16358d-bfcd-46d6-8f4d-7133a7cc9a12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/converter/DataConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/domain/VO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/listener/ContextLoaderListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/listener/WebApplicationContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/java/com/itheima/web/UserServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/resources/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/js/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/jsp/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/jsp/success2.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/src/main/webapp/upload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/META-INF/itheima_spring_mvc.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/converter/DataConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/domain/VO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/listener/ContextLoaderListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/listener/WebApplicationContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/com/itheima/web/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/META-INF/itheima_spring_mvc.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/converter/DataConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/domain/VO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/listener/ContextLoaderListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/listener/WebApplicationContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/web/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/js/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/jsp/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/jsp/success2.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/itheima_spring_mvc-1.0-SNAPSHOT/upload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC210310/itheima_spring_mvc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_anno/src/test/java/com/itheima/test/MyBatisTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_anno/src/test/java/com/itheima/test/MyBatisTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_anno/target/test-classes/com/itheima/test/MyBatisTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_anno/target/test-classes/com/itheima/test/MyBatisTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/com/itheima/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/com/itheima/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/test-classes/com/itheima/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/test-classes/com/itheima/test/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,23 +102,7 @@
       <recent name="$PROJECT_DIR$/itheima_spring_mvc/src/main/webapp/jsp" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat8">
-    <configuration name="MapperTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itheima_mybatis_mapper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MapperTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTest.test3">
     <configuration name="MyBatisTest2.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="itheima_mybatis_anno" />
       <extension name="coverage">
@@ -237,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="itheima_mybatis_quick" />
+    <configuration name="MybatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_mybatis_multi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.test.*" />
@@ -246,8 +160,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MyBatisTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_mybatis_multi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -327,20 +257,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MapperTest.test1" />
-      <item itemvalue="JUnit.MyBatisTest.test1" />
       <item itemvalue="JUnit.MyBatisTest2.testSave" />
       <item itemvalue="JUnit.MyBatisTest3.testSave" />
       <item itemvalue="JUnit.MyBatisTest4.testSave" />
+      <item itemvalue="JUnit.MybatisTest.test2" />
+      <item itemvalue="JUnit.MybatisTest.test3" />
       <item itemvalue="Tomcat Server.Tomcat8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest4.testSave" />
+        <item itemvalue="JUnit.MybatisTest.test3" />
+        <item itemvalue="JUnit.MybatisTest.test2" />
         <item itemvalue="JUnit.MyBatisTest3.testSave" />
+        <item itemvalue="JUnit.MyBatisTest4.testSave" />
         <item itemvalue="JUnit.MyBatisTest2.testSave" />
-        <item itemvalue="JUnit.MapperTest.test1" />
-        <item itemvalue="JUnit.MyBatisTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -359,6 +289,11 @@
       <workItem from="1644819099175" duration="1859000" />
       <workItem from="1644987204038" duration="3899000" />
       <workItem from="1645235820838" duration="9487000" />
+      <workItem from="1645249299982" duration="680000" />
+      <workItem from="1645252859444" duration="1631000" />
+      <workItem from="1645266421309" duration="193000" />
+      <workItem from="1645499958479" duration="80000" />
+      <workItem from="1645500250012" duration="357000" />
     </task>
     <servers />
   </component>
@@ -398,38 +333,42 @@
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state x="590" y="103" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.25.1792.1034@0.25.1792.1034" timestamp="1644673436119" />
-    <state width="1428" height="285" key="GridCell.Tab.0.bottom" timestamp="1645244683776">
+    <state width="546" height="582" key="DebuggerActiveHint" timestamp="1645253409604">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1428" height="285" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1645244683776" />
-    <state width="1428" height="285" key="GridCell.Tab.0.center" timestamp="1645244683775">
+    <state width="546" height="582" key="DebuggerActiveHint/0.25.1792.1034@0.25.1792.1034" timestamp="1645253409604" />
+    <state width="1737" height="331" key="GridCell.Tab.0.bottom" timestamp="1645255800642">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1428" height="285" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1645244683775" />
-    <state width="1428" height="285" key="GridCell.Tab.0.left" timestamp="1645244683775">
+    <state width="1737" height="331" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800642" />
+    <state width="1737" height="331" key="GridCell.Tab.0.center" timestamp="1645255800641">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1428" height="285" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1645244683775" />
-    <state width="1428" height="285" key="GridCell.Tab.0.right" timestamp="1645244683776">
+    <state width="1737" height="331" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800641" />
+    <state width="1737" height="331" key="GridCell.Tab.0.left" timestamp="1645255800641">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1428" height="285" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1645244683776" />
-    <state width="1521" height="285" key="GridCell.Tab.1.bottom" timestamp="1645244414939">
+    <state width="1737" height="331" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800641" />
+    <state width="1737" height="331" key="GridCell.Tab.0.right" timestamp="1645255800641">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1521" height="285" key="GridCell.Tab.1.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1645244414939" />
-    <state width="1521" height="285" key="GridCell.Tab.1.center" timestamp="1645244414938">
+    <state width="1737" height="331" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800641" />
+    <state width="1737" height="331" key="GridCell.Tab.1.bottom" timestamp="1645255800643">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1521" height="285" key="GridCell.Tab.1.center/0.25.1792.1034@0.25.1792.1034" timestamp="1645244414938" />
-    <state width="1521" height="285" key="GridCell.Tab.1.left" timestamp="1645244414938">
+    <state width="1737" height="331" key="GridCell.Tab.1.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800643" />
+    <state width="1737" height="331" key="GridCell.Tab.1.center" timestamp="1645255800642">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1521" height="285" key="GridCell.Tab.1.left/0.25.1792.1034@0.25.1792.1034" timestamp="1645244414938" />
-    <state width="1521" height="285" key="GridCell.Tab.1.right" timestamp="1645244414939">
+    <state width="1737" height="331" key="GridCell.Tab.1.center/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800642" />
+    <state width="1737" height="331" key="GridCell.Tab.1.left" timestamp="1645255800642">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
-    <state width="1521" height="285" key="GridCell.Tab.1.right/0.25.1792.1034@0.25.1792.1034" timestamp="1645244414939" />
+    <state width="1737" height="331" key="GridCell.Tab.1.left/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800642" />
+    <state width="1737" height="331" key="GridCell.Tab.1.right" timestamp="1645255800642">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1737" height="331" key="GridCell.Tab.1.right/0.25.1792.1034@0.25.1792.1034" timestamp="1645255800642" />
     <state width="1521" height="285" key="GridCell.Tab.2.bottom" timestamp="1645244414233">
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
@@ -470,5 +409,16 @@
       <screen x="0" y="25" width="1792" height="1034" />
     </state>
     <state x="477" y="27" width="838" height="1032" key="search.everywhere.popup/0.25.1792.1034@0.25.1792.1034" timestamp="1644733054841" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/itheima_mybatis_multi/src/test/java/com/itheima/test/MybatisTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
