@@ -15,7 +15,7 @@ target/
 .project
 .settings
 
-*.com
+*.comc
 *.class
 *.dll
 *.exe
