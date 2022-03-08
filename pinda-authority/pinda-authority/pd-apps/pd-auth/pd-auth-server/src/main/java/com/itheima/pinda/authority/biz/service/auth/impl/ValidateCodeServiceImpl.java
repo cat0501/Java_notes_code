@@ -21,15 +21,24 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class ValidateCodeServiceImpl implements ValidateCodeService {
+    // 通过这个对象可以操作j2cache缓存
     @Autowired
     private CacheChannel cache;
 
+    /**
+     * @description 生成算术验证码，同时需要将验证码缓存
+     * @author Lemonade
+     * @param: key
+     * @param: response
+     * @updateTime 2022/3/8 下午1:10
+     */
     @Override
     public void create(String key, HttpServletResponse response) throws IOException {
         if (StringUtils.isBlank(key)) {
             throw BizException.validFail("验证码key不能为空");
         }
         //setHeader(response, "arithmetic");
+        // image/png
         response.setContentType(MediaType.IMAGE_PNG_VALUE);
         response.setHeader(HttpHeaders.PRAGMA, "No-cache");
         response.setHeader(HttpHeaders.CACHE_CONTROL, "No-cache");
@@ -38,7 +47,9 @@ public class ValidateCodeServiceImpl implements ValidateCodeService {
         Captcha captcha = new ArithmeticCaptcha(115, 42);
         captcha.setCharType(2);
 
+        // 将验证码进行缓存（一级是？，二级是Redis）
         cache.set(CacheKey.CAPTCHA, key, StringUtils.lowerCase(captcha.text()));
+        // 将生成的验证码图片通过输出流写回客户端浏览器页面
         captcha.out(response.getOutputStream());
     }
 

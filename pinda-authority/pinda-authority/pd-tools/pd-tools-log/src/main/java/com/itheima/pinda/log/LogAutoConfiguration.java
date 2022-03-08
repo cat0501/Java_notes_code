@@ -28,6 +28,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 public class LogAutoConfiguration {
 
     @Bean
+    // 解释1：仅在该注解规定的类不存在于 spring容器中时,使用该注解的config或者bean声明才会被实例化到容器中
+
+    // 解释2：它是修饰bean的一个注解，主要实现的是，当你的bean被注册之后，如果注册相同类型的bean，就不会成功，
+    // 它会保证你的bean只有一个，即你的实例只有一个，当你注册多个相同的bean时，会出现异常，以此来告诉开发人员。
     @ConditionalOnMissingBean
     public SysLogAspect sysLogAspect() {
         return new SysLogAspect();

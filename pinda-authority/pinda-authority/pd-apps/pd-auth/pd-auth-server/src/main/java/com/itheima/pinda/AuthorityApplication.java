@@ -31,6 +31,7 @@ import java.net.UnknownHostException;
 public class AuthorityApplication {
     public static void main(String[] args) throws UnknownHostException{
         ConfigurableApplicationContext context = SpringApplication.run(AuthorityApplication.class, args);
+
         ConfigurableEnvironment environment = context.getEnvironment();
         String appName = environment.getProperty("spring.application.name");
         String port = environment.getProperty("server.port");

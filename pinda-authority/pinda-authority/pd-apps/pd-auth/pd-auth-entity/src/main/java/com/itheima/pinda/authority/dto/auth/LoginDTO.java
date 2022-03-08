@@ -18,6 +18,8 @@ import java.util.List;
 @Accessors(chain = true)
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = false)
+// https://blog.csdn.net/u012846445/article/details/109715515
+// 建造者模式
 @Builder
 @ApiModel(value = "LoginDTO", description = "登录信息")
 public class LoginDTO implements Serializable {

@@ -6,8 +6,10 @@
     <groupId>com.itheima</groupId>
     <artifactId>pinda-authority</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <name>${project.artifactId}</name>
     <description>管理jar版本和仓库</description>
+
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -22,5 +24,7 @@
         <module>pd-apps</module>
         <module>pd-tools</module>
     </modules>
+
     <packaging>pom</packaging>
+
 </project>

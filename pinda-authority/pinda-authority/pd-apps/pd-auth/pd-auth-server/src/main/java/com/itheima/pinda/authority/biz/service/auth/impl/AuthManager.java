@@ -43,35 +43,36 @@ public class AuthManager {
 
     //登录认证
     public R<LoginDTO> login(String account, String password) {
-        //校验账号、密码是否正确
+        // 1,校验账号、密码是否正确
         R<User> userR = check(account, password);
         Boolean isError = userR.getIsError();
         if(isError){
             return R.fail("认证失败");
         }
 
-        //为用户生成jwt令牌
+        // 2,为用户生成jwt令牌
         User user = userR.getData();
         Token token = generateUserToken(user);
 
-        //查询当前用户可以访问的资源权限
+        // 3,查询当前用户可以访问的资源权限
         List<Resource> userResource = resourceService.findVisibleResource(ResourceQueryDTO.builder().userId(user.getId()).build());
         log.info("当前用户拥有的资源权限为：" + userResource);
 
         List<String> permissionList =null;
         if(userResource != null && userResource.size() > 0){
-            //用户对应的权限（给前端使用的）
+            //用户对应的权限（给前端使用的）,code字段, 如 org:add等
             permissionList = userResource.stream().map(Resource::getCode).collect(Collectors.toList());
 
-            //将用户对应的权限（给后端网关使用的）进行缓存
+            //将用户对应的权限（给后端网关使用的）进行缓存，method字段拼接url字段，如POST/org
             List<String> visibleResource = userResource.stream().map((resource -> {
                 return resource.getMethod() + resource.getUrl();
             })).collect(Collectors.toList());
-            //缓存权限数据
+
+            //缓存权限数据 (String region, String key, Object value)
             cacheChannel.set(CacheKey.USER_RESOURCE,user.getId().toString(),visibleResource);
         }
 
-        //封装返回结果
+        // 4,封装返回结果
         LoginDTO loginDTO = LoginDTO.builder().
                             user(dozerUtils.map(userR.getData(), UserDTO.class)).
                             token(token).
@@ -83,6 +84,7 @@ public class AuthManager {
 
     //账号、密码校验
     public R<User> check(String account,String password){
+        // 根据账号查库，获得用户
         User user = userService.getOne(Wrappers.<User>lambdaQuery().eq(User::getAccount, account));
 
         //将前端提交的密码进行md5加密
@@ -99,6 +101,7 @@ public class AuthManager {
     //为当前登录用户生成对应的jwt令牌
     public Token generateUserToken(User user){
         JwtUserInfo jwtUserInfo = new JwtUserInfo(user.getId(),user.getAccount(),user.getName(),user.getOrgId(),user.getStationId());
+        // 生成token
         Token token = jwtTokenServerUtils.generateUserToken(jwtUserInfo, null);
         return token;
     }

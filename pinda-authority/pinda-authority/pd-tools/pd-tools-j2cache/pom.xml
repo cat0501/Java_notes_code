@@ -13,11 +13,14 @@
     <artifactId>pd-tools-j2cache</artifactId>
     <name>${project.artifactId}</name>
     <description>二级缓存模块</description>
+
     <properties>
         <aspectj.version>1.9.2</aspectj.version>
         <aopalliance.version>1.0</aopalliance.version>
     </properties>
+
     <dependencies>
+
         <dependency>
             <groupId>net.oschina.j2cache</groupId>
             <artifactId>j2cache-core</artifactId>

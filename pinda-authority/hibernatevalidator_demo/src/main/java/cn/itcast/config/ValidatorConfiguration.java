@@ -8,6 +8,12 @@ import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
 
+/**
+ * @description 指定校验时使用快速失败返回模式
+ * @author Lemonade
+ * @param: null
+ * @updateTime 2022/3/6 下午5:21
+ */
 public class ValidatorConfiguration {
     @Bean
     public Validator validator() {

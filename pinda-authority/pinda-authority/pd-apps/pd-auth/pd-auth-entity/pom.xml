@@ -13,6 +13,7 @@
     <artifactId>pd-auth-entity</artifactId>
     <name>${project.artifactId}</name>
     <description>权限服务实体模块</description>
+
     <dependencies>
         <dependency>
             <groupId>com.itheima</groupId>

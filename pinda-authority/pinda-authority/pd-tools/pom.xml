@@ -11,7 +11,9 @@
     </parent>
 
     <artifactId>pd-tools</artifactId>
+
     <packaging>pom</packaging>
+
     <name>${project.artifactId}</name>
     <description>公共模块</description>
 

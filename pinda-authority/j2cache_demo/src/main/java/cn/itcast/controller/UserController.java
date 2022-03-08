@@ -18,13 +18,18 @@ import java.util.List;
 public class UserController {
     private String key = "myKey";
     private String region="rx";
+
     @Autowired
     private CacheChannel cacheChannel;
 
     @GetMapping("/getInfos")
     public List<String> getInfos(){
         //从缓存中获取数据，需要指定区域region和key
+        // 读取缓存（用户无需判断返回的对象是否为空）
+        // @param region Cache region name
+        // @param key Cache data key
         CacheObject cacheObject = cacheChannel.get(region, key);
+
         if(cacheObject.getValue() == null){
             //缓存中没有找到，查询数据库获得
             List<String> data = new ArrayList<String>();
@@ -54,6 +59,9 @@ public class UserController {
     //检查指定的缓存数据是否存在
     @GetMapping("/exists")
     public boolean exists(){
+        // 判断某个缓存键是否存在
+        // @param region Cache region name
+        // @param key Cache key
         boolean exists = cacheChannel.exists(region, key);
         return exists;
     }

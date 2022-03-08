@@ -18,26 +18,37 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerAutoConfiguration {
     @Bean
     public Docket createRestApi1(){
-        ApiInfo apiInfo = new ApiInfoBuilder().title("我的接口文档").contact(new Contact("itcast","http://www.itcast.cn","hello@itcast.cn")).version("1.0").description("接口文档描述").build();
+        ApiInfo apiInfo = new ApiInfoBuilder()
+                .title("我的接口文档")
+                .contact(new Contact("itcast", "http://www.itcast.cn","hello@itcast.cn"))
+                .version("1.0")
+                .description("接口文档描述")
+                .build();
 
         //docket对象用于封装接口文档相关信息
         Docket docket = new Docket(DocumentationType.SWAGGER_2).
                         apiInfo(apiInfo).
-                        groupName("用户接口组").select().
-                        apis(RequestHandlerSelectors.basePackage("cn.itcast.controller.user")).
+                        // groupName("用户接口组").
+                        select().
+                        // apis(RequestHandlerSelectors.basePackage("cn.itcast.controller.user")).
+                        apis(RequestHandlerSelectors.basePackage("cn.itcast.controller")).
                         build();
         return docket;
     }
-    @Bean
-    public Docket createRestApi2(){
-        ApiInfo apiInfo = new ApiInfoBuilder().title("我的接口文档").contact(new Contact("itcast","http://www.itcast.cn","hello@itcast.cn")).version("1.0").description("接口文档描述").build();
-
-        //docket对象用于封装接口文档相关信息
-        Docket docket = new Docket(DocumentationType.SWAGGER_2).
-                apiInfo(apiInfo).
-                groupName("菜单接口组").select().
-                apis(RequestHandlerSelectors.basePackage("cn.itcast.controller.menu")).
-                build();
-        return docket;
-    }
+//    @Bean
+//    public Docket createRestApi2(){
+//        ApiInfo apiInfo = new ApiInfoBuilder().title("我的接口文档")
+//                .contact(new Contact("itcast","http://www.itcast.cn","hello@itcast.cn"))
+//                .version("1.0")
+//                .description("接口文档描述")
+//                .build();
+//
+//        //docket对象用于封装接口文档相关信息
+//        Docket docket = new Docket(DocumentationType.SWAGGER_2).
+//                apiInfo(apiInfo).
+//                groupName("菜单接口组").select().
+//                apis(RequestHandlerSelectors.basePackage("cn.itcast.controller.menu")).
+//                build();
+//        return docket;
+//    }
 }

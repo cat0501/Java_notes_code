@@ -15,31 +15,38 @@
     <description>权限认证服务启动模块</description>
 
     <dependencies>
+        <!--权限实体-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>pd-auth-entity</artifactId>
         </dependency>
+        <!--用户上下文：用户注解、模型和工具，当前登录用户信息注入模块-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>pd-tools-user</artifactId>
         </dependency>
+        <!--接口文档-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-core</artifactId>
         </dependency>
+        <!--数据源组件：数据源配置、数据权限、查询条件等-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>pd-tools-databases</artifactId>
         </dependency>
+        <!--对象转换：dozer配置、工具-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>pd-tools-dozer</artifactId>
         </dependency>
 
+        <!--核心组件：基础实体、返回对象、上下文、异常处理、分布式锁、函数、树-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>pd-tools-core</artifactId>
         </dependency>
+        <!--openfeign-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
@@ -50,6 +57,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--支持servlet的jar包-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -97,6 +105,7 @@
             <groupId>com.itheima</groupId>
             <artifactId>pd-tools-xss</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
@@ -150,10 +159,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-undertow</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>

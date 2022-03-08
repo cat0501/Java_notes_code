@@ -8,6 +8,8 @@ import com.itheima.pinda.base.BaseController;
 import com.itheima.pinda.base.R;
 import com.itheima.pinda.log.annotation.SysLog;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -32,6 +34,9 @@ public class LoginController extends BaseController{
     @GetMapping(value = "/captcha",produces = "image/png")
     @ApiOperation(notes = "验证码",value = "验证码")
     @SysLog("生成验证码")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "HttpServletResponse", value = "通过HttpServletResponse进行写回，底层通过spring提供的参数解析器进行注入")
+    })
     public void captcha(@RequestParam(value = "key") String key, HttpServletResponse response) throws IOException{
         validateCodeService.create(key,response);
     }

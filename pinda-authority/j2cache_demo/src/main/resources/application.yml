@@ -12,6 +12,12 @@ pinda:
 
 spring:
   cache:
+    # https://blog.csdn.net/LNView/article/details/80785099
+    # 在不做任何额外的配置的情况下，默认使用的是 SimpleCacheConfiguration，即使用 ConcurrentMapCacheManager。
+    # Spring Boot 支持以 “spring.cache” 为前缀的属性来配置缓存。
+
+    # https://blog.csdn.net/qq877728715/article/details/119916680
+    # 由泛型机制和 static 组合实现的泛型缓存机制
     type: GENERIC
   redis:
     host: ${pinda.redis.ip}
