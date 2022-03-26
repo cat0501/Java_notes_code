@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc2394fa-3245-4bec-91cf-b73d012b8a1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_01_Jedis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_01_Jedis/src/test/java/com/zjl/JedisConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_01_Jedis/src/test/java/com/zjl/SpringApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_01_Jedis/target/test-classes/com/zjl/JedisConnectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_01_Jedis/target/test-classes/com/zjl/SpringApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/src/main/java/com/zjl/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/src/main/java/com/zjl/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/src/main/java/com/zjl/utils/JsonSerializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/src/test/java/com/zjl/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/src/test/java/com/zjl/StringRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/target/classes/com/zjl/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/target/test-classes/META-INF/Redis_02_SpringDataRedis.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis_02_SpringDataRedis/target/test-classes/com/zjl/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/config/WebExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/BlogCommentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/FollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/VoucherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/dto/LoginFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/BlogComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/Follow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/ShopType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/Voucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/entity/VoucherOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/BlogCommentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/FollowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/SeckillVoucherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/ShopMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/ShopTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/VoucherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/mapper/VoucherOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IBlogCommentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IFollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/ISeckillVoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IUserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/BlogCommentsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/SeckillVoucherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/CacheClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/ILock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/RedisData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/RedisIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/RefreshTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/RegexPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/SimpleRedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/java/com/hmdp/utils/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/resources/mapper/SeckillVoucherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/main/resources/mapper/VoucherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/hmdp.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/fastcgi.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/fastcgi_params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/koi-utf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/koi-win" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/mime.types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/scgi_params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/uwsgi_params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/conf/win-utf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/geo2nginx.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/unicode2nginx/koi-utf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/unicode2nginx/unicode-to-nginx.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/unicode2nginx/win-utf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/vim/ftdetect/nginx.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/vim/ftplugin/nginx.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/vim/indent/nginx.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/contrib/vim/syntax/nginx.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/CHANGES.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/OpenSSL.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/PCRE.LICENCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/docs/zlib.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/50x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/blog-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/blog-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/element.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/shop-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/css/shop-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/blogs/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/icons/default-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/icons/icon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/icons/kkjtbcr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/thumbup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/KTV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/amzl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/hpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/jiuba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/jsyd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/lrmf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/mjmj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/qzyl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/imgs/types/spa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/info-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/js/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/js/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/shop-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/hmdp/shop-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/nginx-1.18.0/nginx.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/Redis资料/秒杀抢购.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/config/WebExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/BlogCommentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/FollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/VoucherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/dto/LoginFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/dto/ScrollResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/BlogComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/Follow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/ShopType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/Voucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/entity/VoucherOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/BlogCommentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/FollowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/SeckillVoucherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/ShopMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/ShopTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/VoucherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/mapper/VoucherOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IBlogCommentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IFollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/ISeckillVoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IUserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/BlogCommentsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/SeckillVoucherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/CacheClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/ILock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/RedisData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/RedisIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/RefreshTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/RegexPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/SimpleRedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/java/com/hmdp/utils/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/resources/db/hmdp.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/resources/mapper/VoucherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/resources/seckill.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/main/resources/unlock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/hm-dianping/src/test/java/com/hmdp/RedissonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_study/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/environment/repo" />
+        <option name="mavenHome" value="$USER_HOME$/environment/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/environment/apache-maven-3.8.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="26T6btlQCg9fgMQ6BAcZa6ka80x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.16270699" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootShiroConfigStart10">
+    <configuration name="ClientTest.testBase64" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-day01-03encode-decode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.shiro.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.shiro.client" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.shiro.client.ClientTest" />
+      <option name="METHOD_NAME" value="testBase64" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.testDigestsUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-day01-04hash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.shiro.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.shiro.client" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.shiro.client.ClientTest" />
+      <option name="METHOD_NAME" value="testDigestsUtil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloShiro.shiroLogin (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-day01-05-ciphertext-realm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.shiro" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.shiro.HelloShiro" />
+      <option name="METHOD_NAME" value="shiroLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloShiro.testPermissionRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-day01-06-authentication-realm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.shiro" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.shiro.HelloShiro" />
+      <option name="METHOD_NAME" value="testPermissionRealm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shiro-day01-07web [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/shiro-day01-07web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="DubboAppConfigStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-shiro-dubbo-app-handler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.DubboAppConfigStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayConfigStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-shiro-gateway-handler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.GatewayConfigStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandlerConfigStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-shiro-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.HandlerConfigStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MgtConfigStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-shiro-mgt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.MgtConfigStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroConfigStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-day01-11shiro-redis-realm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.SpringbootShiroConfigStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroConfigStart10" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="shiro-day01-10springboot-shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.SpringbootShiroConfigStart" />
+      <option name="WORKING_DIRECTORY" value="file://$ModuleFileDir$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroConfigStartA" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-day01-12shiro-redis-SessionManagerA" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.SpringbootShiroConfigStartA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroConfigStartB" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-day01-12shiro-redis-SessionManagerB" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.shiro.SpringbootShiroConfigStartB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ClientTest.testBase64" />
+      <item itemvalue="JUnit.ClientTest.testDigestsUtil" />
+      <item itemvalue="JUnit.HelloShiro.shiroLogin (2)" />
+      <item itemvalue="JUnit.HelloShiro.testPermissionRealm" />
+      <item itemvalue="Maven.shiro-day01-07web [tomcat7:run]" />
+      <item itemvalue="Spring Boot.DubboAppConfigStart" />
+      <item itemvalue="Spring Boot.GatewayConfigStart" />
+      <item itemvalue="Spring Boot.HandlerConfigStart" />
+      <item itemvalue="Spring Boot.MgtConfigStart" />
+      <item itemvalue="Spring Boot.SpringbootShiroConfigStart" />
+      <item itemvalue="Spring Boot.SpringbootShiroConfigStartA" />
+      <item itemvalue="Spring Boot.SpringbootShiroConfigStartB" />
+      <item itemvalue="Spring Boot.SpringbootShiroConfigStart10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringbootShiroConfigStart10" />
+        <item itemvalue="JUnit.HelloShiro.testPermissionRealm" />
+        <item itemvalue="JUnit.HelloShiro.shiroLogin (2)" />
+        <item itemvalue="JUnit.ClientTest.testDigestsUtil" />
+        <item itemvalue="JUnit.ClientTest.testBase64" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc2394fa-3245-4bec-91cf-b73d012b8a1a" name="Default Changelist" comment="" />
+      <created>1647435303999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647435303999</updated>
+      <workItem from="1647435306775" duration="28815000" />
+      <workItem from="1647501171062" duration="18251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="356" y="196" width="1178" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647487892970">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="356" y="196" width="1178" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1034@0.25.1792.1034" timestamp="1647487892970" />
+    <state x="680" y="184" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1647487890587">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="680" y="184" key="#com.intellij.ide.macro.MacrosDialog/0.25.1792.1034@0.25.1792.1034" timestamp="1647487890587" />
+    <state x="662" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1647480198001">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="662" y="183" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1034@0.25.1792.1034" timestamp="1647480198001" />
+    <state width="471" height="582" key="DebuggerActiveHint" timestamp="1647530899860">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="471" height="582" key="DebuggerActiveHint/0.25.1792.1034@0.25.1792.1034" timestamp="1647530899860" />
+    <state width="1226" height="289" key="GridCell.Tab.0.bottom" timestamp="1647561559634">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="289" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1647561559634" />
+    <state width="1226" height="289" key="GridCell.Tab.0.center" timestamp="1647561559633">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="289" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1647561559633" />
+    <state width="1226" height="289" key="GridCell.Tab.0.left" timestamp="1647561559622">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="289" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1647561559622" />
+    <state width="1226" height="289" key="GridCell.Tab.0.right" timestamp="1647561559634">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="289" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1647561559634" />
+    <state width="1226" height="237" key="GridCell.Tab.1.bottom" timestamp="1647527847843">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.1.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847843" />
+    <state width="1226" height="237" key="GridCell.Tab.1.center" timestamp="1647527847842">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.1.center/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847842" />
+    <state width="1226" height="237" key="GridCell.Tab.1.left" timestamp="1647527847842">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.1.left/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847842" />
+    <state width="1226" height="237" key="GridCell.Tab.1.right" timestamp="1647527847842">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.1.right/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847842" />
+    <state width="1226" height="237" key="GridCell.Tab.2.bottom" timestamp="1647527847846">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.2.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847846" />
+    <state width="1226" height="237" key="GridCell.Tab.2.center" timestamp="1647527847844">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.2.center/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847844" />
+    <state width="1226" height="237" key="GridCell.Tab.2.left" timestamp="1647527847843">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.2.left/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847843" />
+    <state width="1226" height="237" key="GridCell.Tab.2.right" timestamp="1647527847845">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="1226" height="237" key="GridCell.Tab.2.right/0.25.1792.1034@0.25.1792.1034" timestamp="1647527847845" />
+    <state x="381" y="221" key="IDE.errors.dialog" timestamp="1647483156592">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="381" y="221" key="IDE.errors.dialog/0.25.1792.1034@0.25.1792.1034" timestamp="1647483156592" />
+    <state width="314" height="238" key="ShowFilterAction_Filter_Popup" timestamp="1647483573101">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state width="314" height="238" key="ShowFilterAction_Filter_Popup/0.25.1792.1034@0.25.1792.1034" timestamp="1647483573101" />
+    <state x="477" y="27" width="838" height="1032" key="search.everywhere.popup" timestamp="1647507192233">
+      <screen x="0" y="25" width="1792" height="1034" />
+    </state>
+    <state x="477" y="27" width="838" height="1032" key="search.everywhere.popup/0.25.1792.1034@0.25.1792.1034" timestamp="1647507192233" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-day01-05-ciphertext-realm/src/main/java/com/itheima/shiro/HelloShiro.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java</url>
+          <line>564</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java</url>
+          <line>596</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.java</url>
+          <line>379</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.java</url>
+          <line>380</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-day01-06-authentication-realm/src/main/java/com/itheima/shiro/HelloShiro.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java</url>
+          <line>572</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/EnvironmentLoader.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/EnvironmentLoader.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/EnvironmentLoader.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/IniWebEnvironment.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/IniWebEnvironment.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/env/IniWebEnvironment.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-day01-10springboot-shiro/src/main/java/com/itheima/shiro/config/ShiroConfig.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java</url>
+          <line>367</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/mgt/DefaultFilterChainManager.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2-sources.jar!/org/apache/shiro/web/filter/mgt/DefaultFilterChainManager.java</url>
+          <line>345</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authz/aop/RoleAnnotationHandler.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-day01-10springboot-shiro/src/main/java/com/itheima/shiro/web/account/LoginAction.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-day01-10springboot-shiro/src/main/java/com/itheima/shiro/service/impl/LoginServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-day01-10springboot-shiro/src/main/java/com/itheima/shiro/service/impl/LoginServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/AbstractAuthenticator.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/AbstractAuthenticator.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/environment/repo/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

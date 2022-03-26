@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:41:43 +0800] "GET /platform/home HTTP/1.1" 302 - http-bio-8080-exec-1 68
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:41:44 +0800] "GET /platform/login.jsp HTTP/1.1" 200 612 http-bio-8080-exec-3 845
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:41:53 +0800] "GET /platform/home HTTP/1.1" 302 - http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:41:53 +0800] "GET /platform/login.jsp HTTP/1.1" 200 612 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:43:09 +0800] "POST /platform/login HTTP/1.1" 200 223 http-bio-8080-exec-7 193
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:43:41 +0800] "GET /platform/order-list HTTP/1.1" 200 1284 http-bio-8080-exec-9 72
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:43:45 +0800] "GET /platform/order-add HTTP/1.1" 401 951 http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:44:54 +0800] "GET /platform/logout HTTP/1.1" 302 - http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:44:54 +0800] "GET /platform/login.jsp HTTP/1.1" 200 612 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:45:00 +0800] "POST /platform/login HTTP/1.1" 200 223 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:45:19 +0800] "GET /platform/order-list HTTP/1.1" 401 951 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:45:22 +0800] "GET /platform/order-add HTTP/1.1" 200 164 http-bio-8080-exec-3 82
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:45:25 +0800] "GET /platform/logout HTTP/1.1" 302 - http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [17/Mar/2022:10:45:25 +0800] "GET /platform/login.jsp HTTP/1.1" 200 612 http-bio-8080-exec-3 2

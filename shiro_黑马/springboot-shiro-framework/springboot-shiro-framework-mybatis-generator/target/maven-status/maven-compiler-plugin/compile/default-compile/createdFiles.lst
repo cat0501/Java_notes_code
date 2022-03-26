@@ -1,0 +1,10 @@
+com/itheima/framework/mybatis/generator/MysqlBatchPlugin.class
+com/itheima/framework/mybatis/generator/CriteriaLikePlugin.class
+com/itheima/framework/mybatis/generator/OracleBatchPlugin.class
+com/itheima/framework/mybatis/generator/MysqlPaginationPlugin.class
+com/itheima/framework/mybatis/generator/CommentGeneratorExt.class
+com/itheima/framework/mybatis/generator/LombokPlugin$Annotations.class
+com/itheima/framework/mybatis/generator/ResultColumnPlugin.class
+com/itheima/framework/mybatis/generator/ToStringPlugin.class
+com/itheima/framework/mybatis/generator/LombokPlugin.class
+com/itheima/framework/mybatis/generator/OraclePaginationPlugin.class

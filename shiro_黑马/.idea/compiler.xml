@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shiro-day01-14shiro-RetryLimit" />
+        <module name="springboot-shiro-gateway-handler" />
+        <module name="shiro-day01-09web-jsp-taglib" />
+        <module name="springboot-shiro-gateway-service" />
+        <module name="shiro-day01-12shiro-redis-SessionManagerB" />
+        <module name="shiro-day01-12shiro-redis-SessionManagerA" />
+        <module name="shiro-day01-02realm" />
+        <module name="shiro-day01-05-ciphertext-realm" />
+        <module name="shiro-day01-10springboot-shiro" />
+        <module name="springboot-shiro-mgt" />
+        <module name="springboot-shiro-dubbo-app-face" />
+        <module name="shiro-day01-07web" />
+        <module name="shiro-day01-04hash" />
+        <module name="shiro-day01-06-authentication-realm" />
+        <module name="springboot-shiro-dubbo-app-core" />
+        <module name="shiro-day01-15shiro-KickedOut" />
+        <module name="springboot-shiro-dubbo-app-handler" />
+        <module name="shiro-day01-03encode-decode" />
+        <module name="springboot-shiro-framework-dao" />
+        <module name="springboot-shiro-framework-client" />
+        <module name="springboot-shiro-dubbo-app-service" />
+        <module name="springboot-shiro-framework-commons" />
+        <module name="shiro-day01-01authenticator" />
+        <module name="shiro-day01-11shiro-redis-realm" />
+        <module name="springboot-shiro-framework-core" />
+        <module name="shiro-day01-08web-java" />
+        <module name="springboot-shiro-producer" />
+        <module name="shiro-day01-16shiro-springboot-jwt" />
+        <module name="springboot-shiro-framework-mybatis-generator" />
+        <module name="springboot-shiro-face" />
+        <module name="springboot-shiro-framework-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shiro-day01-01authenticator" target="8" />
+      <module name="shiro-day01-02realm" target="8" />
+      <module name="shiro-day01-03encode-decode" target="8" />
+      <module name="shiro-day01-04hash" target="8" />
+      <module name="shiro-day01-05-ciphertext-realm" target="8" />
+      <module name="shiro-day01-06-authentication-realm" target="8" />
+      <module name="shiro-day01-07web" target="8" />
+      <module name="shiro-day01-08web-java" target="8" />
+      <module name="shiro-day01-09web-jsp-taglib" target="8" />
+      <module name="shiro-day01-10springboot-shiro" target="8" />
+      <module name="shiro-day01-11shiro-redis-realm" target="8" />
+      <module name="shiro-day01-12shiro-redis-SessionManagerA" target="8" />
+      <module name="shiro-day01-12shiro-redis-SessionManagerB" target="8" />
+      <module name="shiro-day01-14shiro-RetryLimit" target="8" />
+      <module name="shiro-day01-15shiro-KickedOut" target="8" />
+      <module name="shiro-day01-16shiro-springboot-jwt" target="8" />
+      <module name="springboot-shiro-dubbo-app" target="8" />
+      <module name="springboot-shiro-dubbo-app-core" target="8" />
+      <module name="springboot-shiro-dubbo-app-face" target="8" />
+      <module name="springboot-shiro-dubbo-app-handler" target="8" />
+      <module name="springboot-shiro-dubbo-app-service" target="8" />
+      <module name="springboot-shiro-face" target="8" />
+      <module name="springboot-shiro-framework" target="8" />
+      <module name="springboot-shiro-framework-client" target="8" />
+      <module name="springboot-shiro-framework-commons" target="8" />
+      <module name="springboot-shiro-framework-core" target="8" />
+      <module name="springboot-shiro-framework-dao" target="8" />
+      <module name="springboot-shiro-framework-mybatis-generator" target="8" />
+      <module name="springboot-shiro-framework-service" target="8" />
+      <module name="springboot-shiro-gateway" target="8" />
+      <module name="springboot-shiro-gateway-handler" target="8" />
+      <module name="springboot-shiro-gateway-service" target="8" />
+      <module name="springboot-shiro-handler" target="8" />
+      <module name="springboot-shiro-mgt" target="8" />
+      <module name="springboot-shiro-parent" target="1.8" />
+      <module name="springboot-shiro-producer" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
