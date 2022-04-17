@@ -25,25 +25,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b16358d-bfcd-46d6-8f4d-7133a7cc9a12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_anno/src/test/java/com/itheima/test/MyBatisTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_anno/src/test/java/com/itheima/test/MyBatisTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_anno/target/test-classes/com/itheima/test/MyBatisTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_anno/target/test-classes/com/itheima/test/MyBatisTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/com/itheima/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/com/itheima/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/com/itheima/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itheima_mybatis_multi/target/test-classes/com/itheima/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/itheima_mybatis_multi/target/test-classes/com/itheima/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/model/request/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/model/request/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/model/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/model/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/java/com/zjl/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yupi/user-center/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yupi/user-center/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yupi/user-center/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -294,6 +292,7 @@
       <workItem from="1645266421309" duration="193000" />
       <workItem from="1645499958479" duration="80000" />
       <workItem from="1645500250012" duration="357000" />
+      <workItem from="1649835448519" duration="80000" />
     </task>
     <servers />
   </component>
