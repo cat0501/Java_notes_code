@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script src="vue.js"></script>
+
+    <!-- 使用数据绑定指令做数据渲染 -->
+    <div id="app">
+      <a v-bind:href="site" target="_blank">{{company}}</a>
+      <!-- 看见冒号：后面就不是一个字符串了，就是一个动态的数据模型的值 -->
+      <!-- 作用完全等同于上面，这是简写形式 -->
+      <a :href="site" target="_blank">{{company}}</a>
+      <input type="text" v-bind:model="company" />
+    </div>
+
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+          company: '尚硅谷',
+          site: 'http://www.atguigu.com',
+        },
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="axios.js"></script>
+    <script>
+      //使用自定义配置
+      const request = axios.create({
+        baseURL: 'http://localhost:8080', //url前缀
+        timeout: 1000, //超时时间  毫秒
+        headers: { token: 'helen123456' }, //携带令牌
+      })
+
+      // 添加请求拦截器
+      request.interceptors.request.use(
+        function (config) {
+          console.log('请求拦截执行！！！')
+          console.log('config', config)
+          config.headers.mytoken = 'helen123'
+          // 放行
+          return config
+        },
+        function (error) {
+          return Promise.reject(error)
+        }
+      )
+
+      // 添加响应拦截器
+      request.interceptors.response.use(
+        function (response) {
+          // 对响应数据做点什么，例如：使用response.data替代response，简化前端拿到的数据结果
+          console.log('response', response)
+          return response.data
+        },
+        function (error) {
+          // 对响应错误做点什么
+          return Promise.reject(error)
+        }
+      )
+
+
+      // 不管是请求拦截器，还是响应拦截器，都必须在发送请求之前
+
+      request({
+        url: '/user/list',
+        method: 'get',
+      })
+        .then((response) => {
+          console.log('数据获取成功', response)
+        })
+        .catch((error) => {
+          console.log('数据获取失败', error)
+        })
+
+      // 另一种写法
+      request
+        .get('/user/list')
+        .then((response) => {
+          // 留一个坑：response.data应该换为response
+          console.log('数据获取成功', response.data)
+        })
+        .catch((error) => {
+          console.log('数据获取失败', error)
+        })
+    </script>
+  </body>
+</html>

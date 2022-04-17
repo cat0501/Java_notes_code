@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./vue.js"></script>
+
+    <!-- 单页应用 -->
+    <div id="app">
+      <!-- 展示内容 -->
+      <!-- 插值表达式，声明式 -->
+      <h1>{{title}}</h1>
+      <p>欢迎 {{user.username}}</p>
+    </div>
+
+    <script>
+      new new Vue({
+        el: '#app', // 使用css3选择器语法  指定 element 元素
+        // 被展示的内容：键值对的形式
+        data: {
+          title: '第一个vue程序',
+          user: {
+            username: 'helan',
+            age: 18,
+          },
+        },
+      })()
+    </script>
+  </body>
+</html>
